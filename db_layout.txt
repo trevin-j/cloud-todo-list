@@ -1,0 +1,17 @@
+Each collection represents one user. (Remember that user "accounts" are not secure and not really accounts. It is more like having multiple profiles.)
+
+A user can have multiple documents.
+
+Each document is a todo-item. There are different types of todo-items.
+At the time this project was first completed, there is only one type of todo-item: action.
+(Once the transition is made to support secure accounts, more types will be added.)
+
+Each document is formatted as the following:
+todo-item {
+    'type': 'action',         # (only option for now)
+    'title': 'TITLE HERE',
+    'desc': 'DESCRIPTION HERE',
+    'due': 'DATE TO BE COMPLETED',
+    'created': 'DATE CREATED',
+    'is_complete': 'True'     # True if completed, else False
+}
