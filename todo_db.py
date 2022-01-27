@@ -15,7 +15,7 @@ def cls():
     '''
     os.system('cls' if os.name=='nt' else 'clear')
 
-def get_current_date(self) -> str:
+def get_current_date() -> str:
     '''
     Get the current date.
     '''
