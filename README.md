@@ -8,9 +8,7 @@ In order to use this software, the user must create their own database using Goo
 
 Once this is done, this program has full access to the user's Firestore database, and the user can begin to use this program. The program uses a simple interface in the console. When the program is launched, any name may be entered. If the name already exists in the database, information from that username will be synced. If the name does not exist, it will be created. Usage is simple, the user can simply follow the on-screen information.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/SX3tfP5jgow)
 
 # Cloud Database
 
